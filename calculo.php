@@ -69,7 +69,7 @@ if ($_POST) {
                      echo $mensagem;
                 ?>
             </div>
-            <a class="botao" href="index.php">
+            <a class="botao" href="index.html">
                 Voltar
             </a>
         </div>
