@@ -15,12 +15,12 @@ if ($_POST) {
             $mensagem .= "<p>Distancia não informada</p>";
             $mensagem .= "</div>";
         }
-        else if ($autonomia == null || $autonomia == 0) {
+        elseif ($autonomia == null || $autonomia == 0) {
             $mensagem .= "<div class='error'>";
             $mensagem .= "<p>Autonomia não informada</p>";
             $mensagem .= "</div>";
         }
-        else if ($autonomia == null && $distancia == null || $distancia == 0 && $autonomia == 0) {
+        elseif ($autonomia == null && $distancia == null || $distancia == 0 && $autonomia == 0) {
             $mensagem .= "<div class='error'>";
             $mensagem .= "<p>Informações não fornecidas!</p>";
             $mensagem .= "</div>";
