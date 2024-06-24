@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .painel {
+    margin: auto;
+    margin-top: 20px;
+    background-color: lightgray;
+    width: 46%;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+main .painel h2 {
+    background-color: gray;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+main > .painel > .conteudo-painel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 10%;
+    line-height: 30px;
+}
+
+main .painel ul{
+    background-color: greenyellow;
+}
+
+main .painel .botao {
+    display: inline-block;
+    background-color: gray ;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+main .painel .botao:hover {
+    background-color: white;
+    color: black;
+}
+
+main .painel .conteudo-painel .error {
+    background-color: lightcoral;
+    color: darkred;
+    width: calc(100% - 10%);
+    font-weight: 500;
+    text-align: center;
+}
